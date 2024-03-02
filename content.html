@@ -3,14 +3,31 @@
 <head>
     <title>History of Bitcoin</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            line-height: 1.6;
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
         }
-        .container {
+        .bg {
+            /* The background image */
+            background-image: url('Create_a_detailed_and_visually_engaging_background.png');
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content {
+            /* Positioning the content */
+            position: relative;
+            z-index: 2;
             max-width: 800px;
             margin: auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7); /* Adding a dark background for readability */
+            color: white; /* White text color */
+            border-radius: 10px;
         }
         h1, p {
             margin-bottom: 20px;
@@ -19,11 +36,13 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>The History of Bitcoin</h1>
-    <p>Bitcoin, the first and most well-known cryptocurrency, was created by an anonymous person (or group of people) under the pseudonym Satoshi Nakamoto in 2009. The creation of Bitcoin marked the beginning of decentralized digital currencies. Since then, it has grown exponentially and sparked the creation of thousands of other cryptocurrencies.</p>
-    <p>Bitcoin's early days were filled with uncertainty, but it has since become a symbol of the potential for digital currencies to change the financial landscape. Its history is a testament to the resilience and innovation of the crypto community.</p>
-    <p>This page aims to explore the milestones in the development of Bitcoin, including its creation, the first transaction, the establishment of exchanges, and its various highs and lows over the years.</p>
+<div class="bg">
+    <div class="content">
+        <h1>The History of Bitcoin</h1>
+        <p>Bitcoin, the first and most well-known cryptocurrency, was created by an anonymous person (or group of people) under the pseudonym Satoshi Nakamoto in 2009. The creation of Bitcoin marked the beginning of decentralized digital currencies. Since then, it has grown exponentially and sparked the creation of thousands of other cryptocurrencies.</p>
+        <p>Bitcoin's early days were filled with uncertainty, but it has since become a symbol of the potential for digital currencies to change the financial landscape. Its history is a testament to the resilience and innovation of the crypto community.</p>
+        <p>This page aims to explore the milestones in the development of Bitcoin, including its creation, the first transaction, the establishment of exchanges, and its various highs and lows over the years.</p>
+    </div>
 </div>
 
 </body>
